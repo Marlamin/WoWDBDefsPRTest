@@ -1,0 +1,39 @@
+COLUMNS
+int ID
+float minScale
+int minScaleLevel
+float maxScale
+int maxScaleLevel
+int<SkillLine::ID> skillLine
+int petFoodMask
+int petTalentType
+uint categoryEnumID
+locstring name
+string iconFile
+int iconFileID
+
+BUILD 6.0.1.18179
+ID<32>
+minScale
+minScaleLevel<32>
+maxScale
+maxScaleLevel<32>
+skillLine<32>[2]
+petFoodMask<32>
+petTalentType<32>
+categoryEnumID<32>
+name
+iconFile
+
+LAYOUT E2DC5126
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+minScale
+maxScale
+iconFileID<32>
+skillLine<16>[2]
+petFoodMask<16>
+minScaleLevel<8>
+maxScaleLevel<8>
+petTalentType<8>

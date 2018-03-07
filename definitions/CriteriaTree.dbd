@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+uint<Criteria::ID> criteriaID
+int amount
+int operator
+uint parent
+int flags
+locstring description
+int orderIndex
+uint padding_2173460021?
+
+BUILD 6.0.1.18179
+ID<32>
+criteriaID<32>
+amount<64>
+operator<32>
+parent<32>
+flags<32>
+description
+orderIndex<32>
+padding_2173460021<8>[4]
+
+LAYOUT 0A1B99C2
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+description
+amount<32>
+flags<16>
+operator<8>
+criteriaID<32>
+parent<32>
+orderIndex<32>

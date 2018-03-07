@@ -1,0 +1,260 @@
+COLUMNS
+int ID
+string Directory // reference to World\Map\ [...] \
+uint PVP
+uint IsInMap
+locstring MapName
+uint InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
+uint MapType
+uint MinLevel
+uint MaxLevel
+uint maxPlayers
+uint unk0?
+uint unk1?
+uint unk2?
+int<Map::ID> parentMapID
+locstring MapDescription0 // Horde
+locstring MapDescription1 // Alliance
+int<LoadingScreens::ID> LoadingScreenID
+uint raidOffset
+uint continentname?
+uint unk3?
+uint<AreaTable::ID> areaTableID
+float minimapIconScale
+uint unk4?
+int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
+uint expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+uint unk5? // Another resettime? Is the same as the heroic one for some entries.
+int Flags? // probaby same as isBattleground
+int<Map::ID> corpseMapID
+float CorpsePosX?
+float CorpsePosY?
+float corpse // Array of CorpsePosX/CorpsePosY
+int<Map::ID> cosmeticParentMapID
+uint timeOffset
+int<WindSettings::ID> WindSettingsID
+locstring PvpShortDescription
+locstring PvpLongDescription
+
+LAYOUT F568DF12
+BUILD 8.0.1.25902-8.0.1.26095
+BUILD 7.3.5.25600-7.3.5.25928
+ID<32>
+Directory
+MapName
+MapDescription0
+MapDescription1
+PvpShortDescription
+PvpLongDescription
+Flags<32>[2]
+minimapIconScale
+corpse[2]
+areaTableID<16>
+LoadingScreenID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
+WindSettingsID<16>
+InstanceType<8>
+MapType<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
+
+LAYOUT C34CD39B, AFAFB470, A37A2830
+BUILD 7.3.2.25135-7.3.2.25549
+BUILD 7.3.0.24473-7.3.0.25195
+BUILD 7.2.5.23910-7.2.5.24393
+BUILD 7.2.0.23530-7.2.0.23937
+ID<32>
+Directory
+Flags<32>[2]
+minimapIconScale
+corpse[2]
+MapName
+MapDescription0
+MapDescription1
+PvpShortDescription
+PvpLongDescription
+areaTableID<16>
+LoadingScreenID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
+WindSettingsID<16>
+InstanceType<8>
+MapType<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
+
+LAYOUT B32E648C, F7CF2DA2, BDBE8188, 98BE9895
+BUILD 7.2.0.23436-7.2.0.23514
+BUILD 7.1.5.23038-7.1.5.23420
+BUILD 7.1.0.22578-7.1.0.22996
+BUILD 7.0.3.21796-7.0.3.22747
+ID<32>
+Directory
+Flags<32>[2]
+minimapIconScale
+corpse[2]
+MapName
+MapDescription0
+MapDescription1
+areaTableID<16>
+LoadingScreenID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
+WindSettingsID<16>
+InstanceType<8>
+MapType<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
+
+LAYOUT 27D77AEF
+BUILD 7.0.3.21473-7.0.3.21737
+ID<32>
+Directory
+Flags<32>[2]
+minimapIconScale
+corpse[2]
+MapName
+MapDescription0
+MapDescription1
+areaTableID<16>
+LoadingScreenID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
+InstanceType<8>
+MapType<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
+
+BUILD 6.0.2.18837
+ID<32>
+Directory
+InstanceType<32>
+unk0<32>
+Flags<32>
+MapType<32>
+MapName
+areaTableID<32>
+MapDescription0
+MapDescription1
+LoadingScreenID<32>
+minimapIconScale
+corpseMapID<32>
+corpse[2]
+timeOfDayOverride<32>
+expansionID<32>
+raidOffset<32>
+maxPlayers<32>
+parentMapID<32>
+cosmeticParentMapID<32>
+timeOffset<32>
+
+BUILD 6.0.1.18125-6.0.2.18833
+ID<32>
+Directory
+InstanceType<32>
+Flags<32>
+MapType<32>
+MapName
+areaTableID<32>
+MapDescription0
+MapDescription1
+LoadingScreenID<32>
+minimapIconScale
+corpseMapID<32>
+corpse[2]
+timeOfDayOverride<32>
+expansionID<32>
+raidOffset<32>
+maxPlayers<32>
+parentMapID<32>
+cosmeticParentMapID<32>
+timeOffset<32>
+
+BUILD 4.0.1.12911
+ID<32>
+Directory
+InstanceType<32>
+Flags<32>
+PVP<32>
+MapName
+areaTableID<32>
+MapDescription0
+MapDescription1
+LoadingScreenID<32>
+minimapIconScale
+corpseMapID<32>
+CorpsePosX
+CorpsePosY
+unk2<32>
+expansionID<32>
+unk3<32>
+unk4<32>
+unk5<32>
+
+BUILD 1.12.1.5875
+ID<32>
+Directory
+InstanceType<32>
+MapType<32>
+MapName
+MinLevel<32>
+MaxLevel<32>
+maxPlayers<32>
+unk0<32>
+unk1<32>
+unk2<32>
+parentMapID<32>
+MapDescription0
+MapDescription1
+LoadingScreenID<32>
+raidOffset<32>
+continentname<32>
+unk4<32>
+
+BUILD 0.9.1.3810
+ID<32>
+Directory
+PVP<32>
+MapName
+MinLevel<32>
+MaxLevel<32>
+unk0<32>
+unk1<32>
+unk2<32>
+unk3<32>
+MapDescription0
+MapDescription1
+unk4<32>
+
+BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
+ID<32>
+Directory
+PVP<32>
+MapName
+MinLevel<32>
+MaxLevel<32>
+unk0<32>
+unk1<32>
+unk2<32>
+MapDescription0
+MapDescription1
+
+BUILD 0.5.3.3368, 0.5.3.3494, 0.6.0.3592
+ID<32>
+Directory
+PVP<32>
+IsInMap<32>
+MapName

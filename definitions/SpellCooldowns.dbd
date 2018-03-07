@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+int spellID
+uint difficultyID
+int categoryRecoveryTime
+int recoveryTime
+int startRecoveryTime
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+difficultyID<32>
+categoryRecoveryTime<32>
+recoveryTime<32>
+startRecoveryTime<32>
+
+LAYOUT CA8D8B3C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+categoryRecoveryTime<32>
+recoveryTime<32>
+startRecoveryTime<32>
+difficultyID<8>
+$relation$spellID<32>

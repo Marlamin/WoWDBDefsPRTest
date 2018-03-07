@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint friendshipRepID
+uint reactionThreshold
+locstring reaction
+
+BUILD 6.0.1.18179
+ID<32>
+friendshipRepID<32>
+reactionThreshold<32>
+reaction
+
+LAYOUT 9C412E5B
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+reaction
+reactionThreshold<16>
+friendshipRepID<8> // unk_8C, unk_90

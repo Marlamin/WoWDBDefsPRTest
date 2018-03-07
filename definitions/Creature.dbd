@@ -1,0 +1,54 @@
+COLUMNS
+uint field_2650500903?
+uint field_4196662938?
+uint field_1610140498?
+uint field_3409545797?
+uint field_3195401034?
+uint field_2720701269?
+string field_3805896047?
+string field_2199540847?
+string field_4173975148?
+uint field_1491223748?
+uint field_4058499962?
+int ID
+int AlwaysItem
+uint classification
+uint creatureFamily
+uint creatureType
+int displayID
+float displayProbability
+int mountCreatureID
+locstring name
+locstring nameAlt
+uint startAnimState
+locstring title
+locstring titleAlt
+
+BUILD 6.0.1.18179
+field_2650500903<32>
+field_4196662938<32>
+field_1610140498<32>[3]
+field_3409545797<32>
+field_3195401034<32>[4]
+field_2720701269<32>[4]
+field_3805896047
+field_2199540847
+field_4173975148
+field_1491223748<32>
+field_4058499962<32>
+
+LAYOUT CFB508A9
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+nameAlt
+title
+titleAlt
+AlwaysItem<32>[3]
+mountCreatureID<32>
+displayID<32>[4]
+displayProbability[4]
+creatureType<8>
+creatureFamily<8>
+classification<8>
+startAnimState<8>

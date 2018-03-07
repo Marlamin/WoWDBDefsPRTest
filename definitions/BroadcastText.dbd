@@ -1,0 +1,36 @@
+COLUMNS
+int ID
+uint<Languages::ID> languageID
+uint<Emotes::ID> emoteID
+uint<SoundEntries::ID> soundEntriesID
+uint field_2465365834?
+int conditionID
+uint emoteDelay
+uint emotesID
+uint flags
+locstring text
+locstring text1
+
+BUILD 6.0.1.18179
+ID<32>
+languageID<32>
+text
+text1
+emoteID<32>[3]
+emoteDelay<32>[3]
+soundEntriesID<32>
+field_2465365834<32>
+flags<32>
+
+LAYOUT 51BF0C33
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+text
+text1
+emoteID<16>[3]
+emoteDelay<16>[3]
+emotesID<16>
+languageID<8>
+flags<8>
+conditionID<32>
+soundEntriesID<32>[2]

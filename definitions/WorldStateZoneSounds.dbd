@@ -1,0 +1,33 @@
+COLUMNS
+int ID
+uint<WorldState::ID> WorldStateID
+uint WorldStateValue
+uint<AreaTable::ID> AreaID
+uint<WMOAreaTable::ID> WMOAreaID
+uint<ZoneIntroMusicTable::ID> ZoneIntroMusicID
+uint<ZoneMusic::ID> ZoneMusicID
+uint<SoundAmbience::ID> SoundAmbienceID
+uint<SoundProviderPreferences::ID> SoundProviderPreferencesID
+
+BUILD 6.0.1.18179
+ID<32>
+WorldStateID<32>
+WorldStateValue<32>
+AreaID<32>
+WMOAreaID<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+
+LAYOUT B9572D3D
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+WMOAreaID<32>
+WorldStateID<16>
+WorldStateValue<16>
+AreaID<16>
+ZoneIntroMusicID<16>
+ZoneMusicID<16>
+SoundAmbienceID<16>
+SoundProviderPreferencesID<8>

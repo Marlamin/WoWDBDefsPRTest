@@ -1,0 +1,34 @@
+COLUMNS
+int ID
+uint<ChrRaces::ID> raceID
+uint<ChrClasses::ID> classID
+uint sexID
+uint outfitID
+int ItemID
+uint DisplayItemID
+uint InventoryType
+uint petDisplayID
+uint petFamilyID
+
+BUILD 6.0.1.18179
+ID<32>
+raceID<8>
+classID<8>
+sexID<8>
+outfitID<8>
+ItemID<32>[24]
+DisplayItemID<32>[24]
+InventoryType<32>[24]
+petDisplayID<32>
+petFamilyID<32>
+
+LAYOUT 0EEBEE24
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+ItemID<32>[24]
+petDisplayID<32>
+classID<8>
+sexID<8>
+outfitID<8>
+petFamilyID<8>
+$relation$raceID<8>

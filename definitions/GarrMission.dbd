@@ -1,0 +1,102 @@
+COLUMNS
+uint field_3764565870?
+uint field_1850409221?
+uint field_1439790070?
+uint field_2946560066?
+uint field_2718524442?
+uint field_1966184731?
+uint field_916300497?
+uint field_1036438268?
+uint field_3618478135?
+uint field_809722809?
+uint field_110675906?
+uint field_666340515?
+uint field_2036890685?
+uint field_1982180108?
+uint field_2868106235?
+uint field_1219432611?
+string field_3174321644?
+string field_805352722?
+string field_2386078249?
+int ID
+uint areaID
+uint baseCompletionChance
+uint baseFollowerXP
+locstring description
+uint envGarrMechanicID
+uint envGarrMechanicTypeID
+uint flags
+uint followerDeathChance
+uint garrFollowerTypeID
+uint garrMissionSetID
+uint garrMissionTypeID
+uint garrTypeID
+locstring location
+float mapPos_
+uint maxFollowers
+uint missionCost
+uint missionCostCurrencyTypesID
+int missionDuration
+locstring name
+uint offerDuration
+uint offeredGarrMissionTextureID
+uint overmaxRewardPackID
+uint playerConditionID
+uint targetItemLevel
+int targetLevel
+int travelDuration
+uint uiTextureKitID
+float worldPos
+
+BUILD 6.0.1.18179
+field_3764565870<32>
+field_1850409221<32>
+field_1439790070<32>
+field_2946560066<32>
+field_2718524442<32>
+field_1966184731<32>
+field_916300497<32>
+field_1036438268<32>
+field_3618478135<32>
+field_809722809<32>[3]
+field_110675906<32>
+field_666340515<32>
+field_2036890685<32>[3]
+field_1982180108<32>[3]
+field_2868106235<32>
+field_1219432611<32>
+field_3174321644
+field_805352722
+field_2386078249
+
+LAYOUT DDD70490
+BUILD 8.0.1.26095
+name
+description
+location
+missionDuration<32>
+offerDuration<32>
+mapPos_[2]
+worldPos[2]
+targetItemLevel<16>
+uiTextureKitID<16>
+missionCostCurrencyTypesID<16>
+targetLevel<8>
+envGarrMechanicTypeID<8>
+maxFollowers<8>
+offeredGarrMissionTextureID<8>
+garrMissionTypeID<8>
+garrFollowerTypeID<8>
+baseCompletionChance<8>
+followerDeathChance<8>
+garrTypeID<8>
+$id$ID<32>
+travelDuration<32>
+playerConditionID<32>
+missionCost<32>
+flags<32>
+baseFollowerXP<32>
+areaID<32>
+overmaxRewardPackID<32>
+envGarrMechanicID<32>
+$relation$garrMissionSetID<32>

@@ -1,0 +1,23 @@
+COLUMNS
+int ID
+string Name
+int Flags
+uint<AnimationData::ID> Fallback
+uint BehaviorID
+uint BehaviorTier
+
+BUILD 6.0.1.18179
+ID<32>
+Name
+Flags<32>
+Fallback<32>
+BehaviorID<32>
+BehaviorTier<32>
+
+LAYOUT 03182786
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+Flags<32>
+Fallback<16>
+BehaviorID<16>
+BehaviorTier<8>

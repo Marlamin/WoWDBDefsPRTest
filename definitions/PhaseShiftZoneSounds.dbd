@@ -1,0 +1,48 @@
+COLUMNS
+int ID
+uint<AreaTable::ID> AreaID
+uint<WMOAreaTable::ID> WMOAreaID
+uint<Phase::ID> PhaseID
+uint<PhaseXPhaseGroup::phaseGroupID> PhaseGroupID
+uint PhaseUseFlags
+uint<ZoneIntroMusicTable::ID> ZoneIntroMusicID
+uint<ZoneMusic::ID> ZoneMusicID
+uint<SoundAmbience::ID> SoundAmbienceID
+uint<SoundProviderPreferences::ID> SoundProviderPreferencesID
+uint<ZoneIntroMusicTable::ID> UWZoneIntroMusicID
+uint<ZoneMusic::ID> UWZoneMusicID
+uint<SoundAmbience::ID> UWSoundAmbienceID
+uint<SoundProviderPreferences::ID> UWSoundProviderPreferencesID
+
+BUILD 6.0.1.18179
+ID<32>
+AreaID<32>
+WMOAreaID<32>
+PhaseID<32>
+PhaseGroupID<32>
+PhaseUseFlags<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+UWZoneIntroMusicID<32>
+UWZoneMusicID<32>
+UWSoundAmbienceID<32>
+UWSoundProviderPreferencesID<32>
+
+LAYOUT 85ACB830
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+AreaID<16>
+PhaseID<16>
+PhaseGroupID<16>
+SoundAmbienceID<16>
+UWSoundAmbienceID<16>
+WMOAreaID<8>
+PhaseUseFlags<8>
+SoundProviderPreferencesID<8>
+UWSoundProviderPreferencesID<8>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+UWZoneIntroMusicID<32>
+UWZoneMusicID<32>

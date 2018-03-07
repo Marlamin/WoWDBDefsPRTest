@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+uint<Faction::ID> faction
+uint flags
+uint factionGroup
+uint friendGroup
+uint enemyGroup
+uint<Faction::ID> enemies
+uint<Faction::ID> friend
+
+BUILD 6.0.1.18179
+ID<32>
+faction<32>
+flags<32>
+factionGroup<32>
+friendGroup<32>
+enemyGroup<32>
+enemies<32>[4]
+friend<32>[4]
+
+LAYOUT 6F1D2135
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+faction<16>
+flags<16>
+enemies<16>[4]
+friend<16>[4]
+factionGroup<8>
+friendGroup<8>
+enemyGroup<8>

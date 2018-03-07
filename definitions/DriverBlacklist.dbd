@@ -1,0 +1,38 @@
+COLUMNS
+uint field_3705307619?
+uint field_3220957747?
+uint field_304187531?
+uint field_2769502505?
+uint field_3065724162?
+uint field_1741256583?
+uint field_2224760748?
+uint field_4232268590?
+int ID
+uint deviceID
+uint driverVersionHi
+uint driverVersionLow
+uint flags
+uint osBits
+uint osVersion
+uint vendorID
+
+BUILD 6.0.1.18179
+field_3705307619<32>
+field_3220957747<32>
+field_304187531<32>
+field_2769502505<32>
+field_3065724162<32>
+field_1741256583<32>
+field_2224760748<32>
+field_4232268590<32>
+
+LAYOUT 1466ACAD
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+driverVersionHi<32>
+driverVersionLow<32>
+vendorID<16>
+deviceID<8>
+osVersion<8>
+osBits<8>
+flags<8>

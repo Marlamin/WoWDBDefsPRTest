@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint objectEffectPackageID
+uint objectEffectGroupID
+uint stateType
+
+BUILD 6.0.1.18179
+ID<32>
+objectEffectPackageID<32>
+objectEffectGroupID<32>
+stateType<32>
+
+LAYOUT 8CF043E5
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+objectEffectPackageID<16>
+objectEffectGroupID<16>
+stateType<16>

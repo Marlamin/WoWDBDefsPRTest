@@ -1,0 +1,15 @@
+COLUMNS
+int ID
+uint<JournalEncounterItem::ID> journalEncounterItemID
+uint<Difficulty::ID> difficultyID
+
+BUILD 6.0.1.18179
+ID<32>
+journalEncounterItemID<32>
+difficultyID<32>
+
+LAYOUT 60D9CA15
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+difficultyID<8>
+$relation$journalEncounterItemID<16>

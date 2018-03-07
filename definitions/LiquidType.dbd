@@ -1,0 +1,69 @@
+COLUMNS
+int ID
+string name
+uint flags
+uint soundBank
+uint soundID
+uint spellID
+float maxDarkenDepth
+float fogDarkenIntensity
+float ambDarkenIntensity
+float dirDarkenIntensity
+uint lightID
+float particleScale
+uint particleMovement
+uint particleTexSlots
+uint materialID
+string texture
+int color
+float float
+uint int
+float coefficient
+uint frameCountTexture
+int minimapStaticCol
+
+BUILD 6.0.1.18179
+ID<32>
+name
+flags<32>
+soundBank<32>
+soundID<32>
+spellID<32>
+maxDarkenDepth
+fogDarkenIntensity
+ambDarkenIntensity
+dirDarkenIntensity
+lightID<32>
+particleScale
+particleMovement<32>
+particleTexSlots<32>
+materialID<32>
+texture[6]
+color<32>[2]
+float[18]
+int<32>[4]
+
+LAYOUT 63469432
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+texture[6]
+spellID<32>
+maxDarkenDepth
+fogDarkenIntensity
+ambDarkenIntensity
+dirDarkenIntensity
+particleScale
+minimapStaticCol<32>
+color<32>[2]
+float[18]
+int<32>[4]
+coefficient[4]
+flags<16>
+lightID<16>
+soundBank<8>
+particleMovement<8>
+particleTexSlots<8>
+materialID<8>
+frameCountTexture<8>[6]
+soundID<32>

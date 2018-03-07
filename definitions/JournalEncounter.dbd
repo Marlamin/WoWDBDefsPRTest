@@ -1,0 +1,41 @@
+COLUMNS
+int ID
+uint dungeonMapID
+uint worldMapAreaID
+float map
+uint firstSectionID
+uint journalInstanceID
+uint orderIndex
+int difficultyMask
+locstring name
+locstring description
+uint flags
+uint mapDisplayConditionID
+
+BUILD 6.0.1.18179
+ID<32>
+dungeonMapID<32>
+worldMapAreaID<32>
+map[2]
+firstSectionID<32>
+journalInstanceID<32>
+orderIndex<32>
+difficultyMask<32>
+name
+description
+flags<32>
+
+LAYOUT 2935A0FD
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+description
+map[2]
+dungeonMapID<16>
+worldMapAreaID<16>
+firstSectionID<16>
+journalInstanceID<16>
+difficultyMask<8>
+flags<8>
+orderIndex<32>
+mapDisplayConditionID<32>

@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+float clothmodifier
+float leathermodifier
+float chainmodifier
+float platemodifier
+float modifier
+
+BUILD 6.0.1.18179
+ID<32>
+clothmodifier
+leathermodifier
+chainmodifier
+platemodifier
+modifier
+
+LAYOUT CCFBD16E
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+clothmodifier
+leathermodifier
+chainmodifier
+platemodifier
+modifier

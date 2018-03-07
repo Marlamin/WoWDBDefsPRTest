@@ -1,0 +1,57 @@
+COLUMNS
+int ID
+uint minPower
+uint maxPower
+uint startPower
+uint centerPower
+float regenerationPeace
+float regenerationCombat
+uint barType
+int<FileData::ID> fileDataID
+int color
+uint flags
+locstring name
+locstring cost
+locstring outOfError
+locstring toolTip
+float startInset
+float endInset
+
+BUILD 6.0.1.18179
+ID<32>
+minPower<32>
+maxPower<32>
+startPower<32>
+centerPower<32>
+regenerationPeace
+regenerationCombat
+barType<32>
+fileDataID<32>[6]
+color<32>[6]
+flags<32>
+name
+cost
+outOfError
+toolTip
+startInset
+endInset
+
+LAYOUT 626C94CD
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+cost
+outOfError
+toolTip
+regenerationPeace
+regenerationCombat
+fileDataID<32>[6]
+color<32>[6]
+startInset
+endInset
+startPower<16>
+flags<16>
+centerPower<8>
+barType<8>
+minPower<32>
+maxPower<32>

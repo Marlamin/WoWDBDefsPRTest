@@ -1,0 +1,21 @@
+COLUMNS
+int ID
+float ClothModifier
+float LeatherModifier
+float ChainModifier
+float PlateModifier
+
+BUILD 6.0.1.18179
+ID<32>
+ClothModifier
+LeatherModifier
+ChainModifier
+PlateModifier
+
+LAYOUT 1F7A850F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+ClothModifier
+LeatherModifier
+ChainModifier
+PlateModifier

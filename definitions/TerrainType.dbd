@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+uint TerrainID
+string TerrainDesc
+uint FootstepSprayRun
+uint FootstepSprayWalk
+uint SoundID
+uint Flags
+
+BUILD 6.0.1.18179
+ID<32>
+TerrainID<32>
+TerrainDesc
+FootstepSprayRun<32>
+FootstepSprayWalk<32>
+SoundID<32>
+Flags<32>
+
+LAYOUT 4FE20345
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+TerrainDesc
+FootstepSprayRun<16>
+FootstepSprayWalk<16>
+SoundID<8>
+Flags<8>

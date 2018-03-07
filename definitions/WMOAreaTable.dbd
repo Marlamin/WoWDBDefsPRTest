@@ -1,0 +1,51 @@
+COLUMNS
+int ID
+uint WMOID
+uint NameSetID
+int WMOGroupID
+uint<SoundProviderPreferences::ID> SoundProviderPref
+uint<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+uint<SoundAmbience::ID> AmbienceID
+uint<ZoneMusic::ID> ZoneMusic
+uint<ZoneIntroMusicTable::ID> IntroSound
+uint flags
+uint<AreaTable::ID> AreaTableID
+locstring AreaName
+uint<ZoneIntroMusicTable::ID> uwIntroSound
+uint<ZoneMusic::ID> uwZoneMusic
+uint<SoundAmbience::ID> uwAmbience
+
+BUILD 6.0.1.18179
+ID<32>
+WMOID<32>
+NameSetID<32>
+WMOGroupID<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+IntroSound<32>
+flags<32>
+AreaTableID<32>
+AreaName
+uwIntroSound<32>
+uwZoneMusic<32>
+uwAmbience<32>
+
+LAYOUT 30A78709
+BUILD 8.0.1.26095
+AreaName
+WMOGroupID<32>
+WMOID<16> // unk_8C, unk_90
+AmbienceID<16>
+ZoneMusic<16>
+IntroSound<16>
+AreaTableID<16>
+uwIntroSound<16>
+uwAmbience<16>
+NameSetID<8>
+SoundProviderPref<8>
+SoundProviderPrefUnderwater<8>
+flags<8>
+$id$ID<32>
+uwZoneMusic<32>

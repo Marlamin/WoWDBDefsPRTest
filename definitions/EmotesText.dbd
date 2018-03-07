@@ -1,0 +1,17 @@
+COLUMNS
+int ID
+string name
+uint<Emotes::ID> emoteID
+uint<EmotesTextData::ID> emoteText
+
+BUILD 6.0.1.18179
+ID<32>
+name
+emoteID<32>
+emoteText<32>[16]
+
+LAYOUT E85AFA10
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+emoteID<16>

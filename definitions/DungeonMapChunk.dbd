@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+uint<Map::ID> mapID
+uint<WMOAreaTable::WMOGroupID> WMOGroupID
+uint<DungeonMap::ID> dungeonMapID
+float minZ
+uint doodadPlacementID
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+WMOGroupID<32>
+dungeonMapID<32>
+minZ
+doodadPlacementID<32>
+
+LAYOUT 7927A3A7
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+minZ
+doodadPlacementID<32>
+mapID<16> // unk_8C, unk_90
+WMOGroupID<16>
+dungeonMapID<16>

@@ -1,0 +1,25 @@
+COLUMNS
+uint padding_2382494667?
+int ID
+uint realmType
+uint playerKillingAllowed
+uint roleplaying
+uint playerAttackSpeedBase
+uint maxDamageReductionPctPhysical
+
+BUILD 6.0.1.18179
+padding_2382494667<8>[4]
+ID<32>
+realmType<32>
+playerKillingAllowed<32>
+roleplaying<32>
+playerAttackSpeedBase<32>
+maxDamageReductionPctPhysical<32>
+
+LAYOUT C618392F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+#float#maxDamageReductionPctPhysical
+playerAttackSpeedBase<16>
+playerKillingAllowed<8>
+roleplaying<8>

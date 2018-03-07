@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint Sort_Index
+uint<GMSurveyQuestions::ID> GMSurveyQuestionID
+locstring Answer
+
+BUILD 6.0.1.18179
+ID<32>
+Sort_Index<32>
+GMSurveyQuestionID<32>
+Answer
+
+LAYOUT 422747F6
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+Answer
+Sort_Index<8>
+$relation$GMSurveyQuestionID<32>

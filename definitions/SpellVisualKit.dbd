@@ -1,0 +1,63 @@
+COLUMNS
+int ID
+uint field_3891939100?
+uint field_3489186929?
+uint field_4014211407?
+uint field_3860462314?
+uint field_2517955753?
+uint field_2390690163?
+uint field_3468827642?
+uint field_718542508?
+uint field_1437598280?
+uint field_148618533?
+uint field_4183877524?
+uint field_94589165?
+uint field_1141178071?
+uint field_3231781593?
+uint field_975398223?
+uint field_2094018342?
+float field_1965610676?
+float field_2589566885?
+float field_3122043454?
+float field_3178167054?
+uint field_3080486628?
+float field_3896634149?
+uint delayMax
+uint delayMin
+float fallbackPriority
+uint fallbackSpellVisualKitID
+int flags
+
+BUILD 6.0.1.18179
+ID<32>
+field_3891939100<32>
+field_3489186929<32>
+field_4014211407<32>
+field_3860462314<32>
+field_2517955753<32>
+field_2390690163<32>
+field_3468827642<32>
+field_718542508<32>
+field_1437598280<32>
+field_148618533<32>
+field_4183877524<32>
+field_94589165<32>[3]
+field_1141178071<32>
+field_3231781593<32>
+field_975398223<32>
+field_2094018342<32>[4]
+field_1965610676[4]
+field_2589566885[4]
+field_3122043454[4]
+field_3178167054[4]
+field_3080486628<32>
+field_3896634149
+
+LAYOUT DC04F488
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+flags<32>
+fallbackPriority
+fallbackSpellVisualKitID<32>
+delayMin<16>
+delayMax<16>

@@ -1,0 +1,25 @@
+COLUMNS
+int ID
+uint WowEditLock
+string WowEditLockUser
+uint ZoneIntroMusicID
+uint ZoneMusicID
+uint SoundAmbienceID
+uint SoundProviderPreferencesID
+
+BUILD 6.0.1.18179
+ID<32>
+WowEditLock<32>
+WowEditLockUser
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+
+LAYOUT FB7643F6
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+ZoneIntroMusicID<16>
+ZoneMusicID<16>
+SoundAmbienceID<16>
+SoundProviderPreferencesID<8>

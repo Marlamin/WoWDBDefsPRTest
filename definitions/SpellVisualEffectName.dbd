@@ -1,0 +1,56 @@
+COLUMNS
+uint field_189230862?
+string field_2235639456?
+float field_146715450?
+float field_2467693239?
+float field_447916520?
+float field_23049963?
+uint field_2829898174?
+uint padding_229586292?
+float field_1335078285?
+uint field_1471446042?
+uint field_3178768920?
+int ID
+float alpha
+float baseMissileSpeed
+int dissolveEffectID
+float effectRadius
+uint flags
+int genericID
+float maxAllowedScale
+float minAllowedScale
+int modelFileDataID
+uint ribbonQualityID
+float scale
+int textureFileDataID
+uint type
+
+BUILD 6.0.1.18179
+field_189230862<32>
+field_2235639456
+field_146715450
+field_2467693239
+field_447916520
+field_23049963
+field_2829898174<8>
+padding_229586292<8>[3]
+field_1335078285
+field_1471446042<32>
+field_3178768920<32>
+
+LAYOUT 2A02639A
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+modelFileDataID<32>
+effectRadius
+baseMissileSpeed
+scale
+minAllowedScale
+maxAllowedScale
+alpha
+flags<32>
+type<32>
+genericID<32>
+textureFileDataID<32>
+ribbonQualityID<32>
+dissolveEffectID<32>

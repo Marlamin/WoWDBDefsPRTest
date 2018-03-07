@@ -1,0 +1,102 @@
+COLUMNS
+uint field_3168652942?
+uint field_3344665917?
+uint field_263110037?
+uint field_2341785278?
+uint field_4284947872?
+uint field_721452295?
+uint field_2054766262?
+uint field_398665856?
+uint field_4214031279?
+uint field_3938450527?
+uint field_767537361?
+uint field_2337283541?
+uint field_4022270752?
+uint field_1918779027?
+uint field_2382526395?
+uint field_2003574378?
+int ID
+int allianceCreatureID
+uint allianceFlavorGarrStringID
+uint allianceGarrClassSpecID
+uint allianceGarrFollItemSetID
+uint allianceGarrFollRaceID
+int allianceIconFileDataID
+locstring allianceSourceText
+int allianceSourceTypeEnum
+uint allianceUITextureKitID
+uint allySlottingBroadcastTextID
+uint chrClassID
+uint flags
+uint followerLevel
+uint garrFollowerTypeID
+uint garrTypeID
+uint gender
+int hordeCreatureID
+uint hordeFlavorGarrStringID
+uint hordeGarrClassSpecID
+uint hordeGarrFollItemSetID
+uint hordeGarrFollRaceID
+int hordeIconFileDataID
+uint hordeSlottingBroadcastTextID
+locstring hordeSourceText
+int hordeSourceTypeEnum
+uint hordeUITextureKitID
+uint itemLevelArmor
+uint itemLevelWeapon
+uint quality
+locstring titleName
+uint vitality
+
+BUILD 6.0.1.18179
+field_3168652942<32>
+field_3344665917<32>
+field_263110037<32>
+field_2341785278<32>
+field_4284947872<32>
+field_721452295<32>
+field_2054766262<32>
+field_398665856<32>
+field_4214031279<32>
+field_3938450527<32>
+field_767537361<32>
+field_2337283541<32>
+field_4022270752<32>
+field_1918779027<32>
+field_2382526395<32>
+field_2003574378<32>
+
+LAYOUT AAB75E04
+BUILD 8.0.1.26095
+hordeSourceText
+allianceSourceText
+titleName
+hordeCreatureID<32>
+allianceCreatureID<32>
+hordeIconFileDataID<32>
+allianceIconFileDataID<32>
+hordeSlottingBroadcastTextID<32>
+allySlottingBroadcastTextID<32>
+hordeGarrFollItemSetID<16>
+allianceGarrFollItemSetID<16>
+itemLevelWeapon<16>
+itemLevelArmor<16>
+hordeUITextureKitID<16>
+allianceUITextureKitID<16>
+garrFollowerTypeID<8>
+hordeGarrFollRaceID<8>
+allianceGarrFollRaceID<8>
+quality<8>
+hordeGarrClassSpecID<8>
+allianceGarrClassSpecID<8>
+followerLevel<8>
+gender<8>
+flags<8>
+hordeSourceTypeEnum<8>
+allianceSourceTypeEnum<8>
+garrTypeID<8>
+vitality<8>
+chrClassID<8>
+hordeFlavorGarrStringID<8>
+allianceFlavorGarrStringID<8>
+$id$ID<32>
