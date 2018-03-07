@@ -6,6 +6,7 @@ uint rulesetID
 uint challenge_origin
 uint raidorigin
 uint region_ID
+uint unusedcol
 
 BUILD 6.0.1.18179
 ID<32>
