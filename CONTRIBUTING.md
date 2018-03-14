@@ -1,4 +1,4 @@
-# Contributing
+# Contributing 
 
 These definitions rely on the community to keep them updated. We've made the format as easy as possible for humans to edit/understand. Here's some guidelines to keep in mind when contributing:
 
